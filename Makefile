@@ -1,4 +1,4 @@
-IMAGE_NAME := waja/php:7.3-fpm-alpine
+IMAGE_NAME := waja/php73-fpm
 
 build:
 	docker build --rm -t $(IMAGE_NAME) .
